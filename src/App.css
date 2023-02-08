@@ -1,0 +1,69 @@
+.student-table__table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.student-table__table th {
+  background-color: rgb(184, 184, 184);
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table__table td {
+  width: 16%;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table__table .hovered {
+  background-color: #e0e0e0;
+  transition: 0.1s;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+input {
+  width: 50%;
+}
+
+.add {
+  background-color: #e0e0e0;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  font-size: 15px;
+  height: 50px;
+  position: fixed;               
+  top: 20rem;
+  left: 3.4rem;
+  transition: 0.3s;
+}
+
+.add:hover {
+  background:rgb(184, 184, 184);
+}
+
+.filter {
+  font-size: 21px;
+  height: 100px;
+  position: fixed;               
+  top: 14rem;
+  left: 3rem;
+}
+
+.button {
+  background-color: #e0e0e0;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;              
+  transition: 0.3s;
+}
+
+.button:hover {
+  background:rgb(184, 184, 184);
+}
+
